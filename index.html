@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Travel</title>
+
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+
+    <!-- font awesome cdn link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body>
+    <!-- header section starts  -->
+
+    <header>
+      <div id="menu-bar" class="fas fa-bars"></div>
+
+      <a href="#" class="logo"><span>DURG </span>BHRAMANTI</a>
+
+      <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#fort">fort</a>
+        <a href="#adventure">advanture</a>
+        <a href="#booking">booking</a>
+        <a href="#gallery">gallery</a>
+        <a href="#contact">contact</a>
+        <a href="./login.html">Login</a>
+      </nav>
+
+      <div class="icons">
+        <i class="search" id="search-btn"></i>
+        <i class="user" id="login-btn"></i>
+      </div>
+    </header>
+
+    <!-- header section ends -->
+
+    <!-- login form container  -->
+
+    <div class="login-form-container">
+      <i class="fas fa-times" id="form-close"></i>
+
+      <form action="">
+        <h3>login</h3>
+        <input type="email" class="box" placeholder="enter your email" />
+        <input type="password" class="box" placeholder="enter your password" />
+        <input type="submit" value="login now" class="btn" />
+        <input type="checkbox" id="remember" />
+        <label for="remember">remember me</label>
+        <p>forget password? <a href="./forgotpassword.html">click here</a></p>
+        <p>don't have and account? <a href="./signup.html">register now</a></p>
+      </form>
+    </div>
+
+    <!-- home section starts  -->
+
+    <section class="home" id="home">
+      <div class="content">
+        <h3>WELCOME TO DURG BHRAMANTI</h3>
+        <p>"Travel Is The Only Thing You Buy That Makes You Richer"</p>
+        <a href="#" class="btn">ADVENTURE</a>
+        <a href="./Booking.html" class="btn">BOOK YOUR SEAT</a>
+      </div>
+
+      <div class="controls">
+        <span class="vid-btn active" data-src="images/Pratapgad.mp4"></span>
+        <span
+          class="vid-btn"
+          data-src="images/Rajgad1.mp4"
+        ></span>
+        <span class="vid-btn" data-src="images/HARIHAR.mp4"></span>
+        <span class="vid-btn" data-src="images/torna.mp4"></span>
+        <span class="vid-btn" data-src="images/Rajgad.mp4"></span>
+      </div>
+
+      <div class="video-container">
+        <video
+          src="images/Pratapgad.mp4"
+          id="video-slider"
+          loop
+          autoplay
+          muted
+        ></video>
+      </div>
+    </section>
+
+    <!-- home section ends -->
+
+    <!-- fort section starts  -->
+
+    <section class="fort" id="fort">
+      <h1 class="heading">
+        <span>I</span>
+        <span class="space"></span>
+        <span>L</span>
+        <span>o</span>
+        <span>V</span>
+        <span>E</span>
+        <span class="space"></span>
+        <span>T</span>
+        <span>R</span>
+        <span>A</span>
+        <span>V</span>
+        <span>E</span>
+        <span>L</span>
+      </h1>
+      <p>
+        Maharashtra is known for its rich history and culture of the Mughals and
+        Marathas. There are over 350 forts in Maharashtra, and all of them are
+        of historical significance. The forts tell you all the stories of how
+        both the empires have ruled the state, fought wars and left something
+        behind to be remembered by. Janjira, Raigad, Panhala, Rajmachi, Tikona,
+        and Pratapgad are some of the state's most popular forts. Travelling to
+        any of these forts is not too difficult, and if you are looking for
+        adventure, you can also trek to some of them. You can hire a guide who
+        can take you through the historical importance and stories of the fort,
+        or you can just look it up on the internet. A lot of these forts are
+        also perfect for a monsoon trek.
+      </p>
+      <a href="fort.html" class="btn">Know More</a>
+    </section>
+
+    <!-- fort section ends -->
+
+    <!-- adventure section starts  -->
+
+    <section class="adventure" id="adventure">
+      <h1 class="heading">
+        <span>b</span>
+        <span>o</span>
+        <span>o</span>
+        <span>k</span>
+        <span>i</span>
+        <span>n</span>
+        <span>g</span>
+      </h1>
+
+      <div class="slide-container">
+        <span class="slider-span" id="slider-span1"></span>
+        <span class="slider-span" id="slider-span2"></span>
+        <span class="slider-span" id="slider-span3"></span>
+        
+        <span class="slider-span" id="slider-span5"></span>
+        <span class="slider-span" id="slider-span6"></span>
+        <span class="slider-span" id="slider-span7"></span>
+
+        <div class="image-slider">
+          <div class="slides-div" id="slide-1">
+            <img src="./images/11.jpg" alt="" class="img" id="img1">
+            <a href="#slider-span1" class="button" id="button-1"></a>
+          </div>
+          <div class="slides-div" id="slide-2">
+            <img src="./images/11.jpg" alt="" class="img" id="img2">
+            <a href="#slider-span2" class="button" id="button-2"></a>
+          </div>
+          <div class="slides-div" id="slide-3">
+            <img src="./images/11.jpg" alt="" class="img" id="img3">
+            <a href="#slider-span3" class="button" id="button-3"></a>
+          </div>
+          
+          <div class="slides-div" id="slide-5">
+            <img src="./images/11.jpg" alt="" class="img" id="img5">
+            <a href="#slider-span5" class="button" id="button-5"></a>
+          </div>
+          <div class="slides-div" id="slide-6">
+            <img src="./images/11.jpg" alt="" class="img" id="img6">
+            <a href="#slider-span6" class="button" id="button-6"></a>
+          </div>
+          <div class="slides-div" id="slide-7">
+            <img src="./images/11.jpg" alt="" class="img" id="img7">
+            <a href="#slider-span7" class="button" id="button-7"></a>
+          </div>
+        </div>
+      </div>
+   </section>
+
+    <!-- adventure section ends -->
+
+    <!-- booking section starts  -->
+
+    <section class="booking" id="booking">
+      <h1 class="heading">
+        <span>a</span>
+        <span>d</span>
+        <span>v</span>
+        <span>e</span>
+        <span>n</span>
+        <span>t</span>
+        <span>u</span>
+        <span>r</span>
+        <span>e</span>
+      </h1>
+
+      <div class="box-container">
+        <div class="box">
+          <img src="./images/Devkund.jpg" alt="" />
+          <h3>Devkund</h3>
+          <p>
+            Devkund Waterfall is a waterfall located near Bhira.
+          </p>
+          <a href="./devkund.html" class="btn">read more</a>
+        </div>
+
+        <div class="box">
+          <img src="./images/Lonavala.jpg" alt="" />
+          <h3>Lonavala</h3>
+          <p>
+            "Jurassic Park"-inspired recreation area with large-scale dinosaur models.
+          </p>
+          <a href="#" class="btn">read more</a>
+        </div>
+
+        <div class="box">
+          <img src="./images/Pune City Tour.jpg" alt="" />
+          <h3>Pune City Tour</h3>
+          <p>
+            famous attractions like Raja Dinkar Kelkar Temple
+          </p>
+          <a href="#" class="btn">read more</a>
+        </div>
+
+        <div class="box">
+          <img src="./images/Sandhan Valley.jpg" alt="" />
+          <h3>Sandhan Valley</h3>
+          <p>
+            Sandhan is located near the beautiful Bhandardara region
+          </p>
+          <a href="#" class="btn">read more</a>
+        </div>
+
+        <!---
+      <div class="grid">
+        <div class="grid-item">
+          <div class="card">
+            <img class="card-img" src="./images/kolhapur2.jpg" alt="Rome" />
+            <div class="card-content">
+              <h1 class="card-header">kolhapur</h1>
+              <p class="card-text">
+                Rome is known for its stunning <strong> architecture</strong>,
+                with the Colleseum, Pantheon, and Trevi Fountain as the main
+                attractions.
+              </p>
+              <button class="btn">Visit <span>&rarr;</span></button>
+            </div>
+          </div>
+        </div>
+
+        <div class="grid-item">
+          <div class="card">
+            <img
+              class="card-img"
+              src="./images/Satara.webp"
+              alt="Grand Canyon"
+            />
+            <div class="card-content">
+              <h1 class="card-header">Satara</h1>
+              <p class="card-text">
+                One of the world's natural wonders, the iconic Grand Canyon
+                draws oohs and aahs from visitors perched at the edge of its
+                <strong>towering cliffs</strong>.
+              </p>
+              <button class="btn">Visit <span>&rarr;</span></button>
+            </div>
+          </div>
+        </div>
+
+        <div class="grid-item">
+          <div class="card">
+            <img class="card-img" src="./images/pune.jpg" alt="Maldives" />
+            <div class="card-content">
+              <h1 class="card-header">Pune</h1>
+              <p class="card-text">
+                The Maldives are known for their
+                <strong>natural environment</strong> including the blue ocean,
+                white beaches, and clean air, attracting tourists.
+              </p>
+              <a href="./Booking.html">
+                <button class="btn">Visit <span>&rarr;</span></button></a
+              >
+            </div>
+          </div>
+        </div>
+          -->
+      </div>
+
+  
+    </section>
+
+    <!-- booking section ends -->
+
+    <!-- gallery section starts  -->
+
+    <section class="gallery" id="gallery">
+      <h1 class="heading">
+        <span>g</span>
+        <span>a</span>
+        <span>l</span>
+        <span>l</span>
+        <span>e</span>
+        <span>r</span>
+        <span>y</span>
+      </h1>
+
+      <h3> “Travel isn’t always pretty. It isn’t always comfortable. Sometimes it hurts, it even breaks your heart. But that’s okay. The journey changes you; it should change you. It leaves marks on your memory, on your consciousness, on your heart, and on your body. You take something with you. Hopefully, you leave something good behind.” .</h3>
+      </div>
+    </section>
+
+    <!-- gallery section ends -->
+
+    <!-- contact section starts  -->
+
+    <section class="contact" id="contact">
+      <h1 class="heading">
+        <span>c</span>
+        <span>o</span>
+        <span>n</span>
+        <span>t</span>
+        <span>a</span>
+        <span>c</span>
+        <span>t</span>
+      </h1>
+
+      <div class="row">
+        <div class="image">
+          <img src="./images/tourism.jpg" alt="" />
+        </div>
+
+        <form action="">
+          <div class="inputBox">
+            <input type="text" placeholder="name" />
+            <input type="email" placeholder="email" />
+          </div>
+          <div class="inputBox">
+            <input type="number" placeholder="number" />
+            <input type="text" placeholder="subject" />
+          </div>
+          <textarea
+            placeholder="message"
+            name=""
+            id=""
+            cols="30"
+            rows="10"
+          ></textarea>
+          <input type="submit" class="btn" value="send message" />
+        </form>
+      </div>
+    </section>
+
+    <!-- contact section ends -->
+
+    <!-- footer section  -->
+
+    <section class="footer">
+      <footer>
+        <div class="box-container">
+          <div class="box">
+            <h3>about us</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda
+              quas magni pariatur est accusantium voluptas enim nemo facilis sit
+              debitis.
+            </p>
+          </div>
+          <div class="box">
+            <h3>branch locations</h3>
+            <a href="#">india</a>
+            <a href="#">USA</a>
+            <a href="#">japan</a>
+            <a href="#">france</a>
+          </div>
+          <div class="box">
+            <h3>quick links</h3>
+            <a href="#">Home</a>
+            <a href="#">book</a>
+            <a href="#">packages</a>
+            <a href="#">services</a>
+            <a href="#">gallery</a>
+            <a href="#">review</a>
+            <a href="#">contact</a>
+          </div>
+          <div class="box">
+            <h3>follow us</h3>
+            <a href="#">facebook</a>
+            <a href="#">instagram</a>
+            <a href="#">twitter</a>
+            <a href="#">linkedin</a>
+          </div>
+        </div>
+
+        <h1 class="credit">
+          created by <span>Alankar Magdum </span> | all rights reserved!
+        </h1>
+      </footer>
+    </section>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- custom js file link  -->
+    <script src="./script.js"></script>
+  </body>
+</html>
